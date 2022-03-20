@@ -19,15 +19,15 @@ body {
 
 .navbar-title {
   float: left;
+  margin-left: 10px;
 }
 
 .navbar-title h1 {
   color: black;
   width: 100%;
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 18px;
-  margin-left: 15px;
 }
 
 h2 {
@@ -38,6 +38,10 @@ h2 {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
 }
 
 #nav-list li {
