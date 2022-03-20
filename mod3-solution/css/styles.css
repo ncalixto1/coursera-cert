@@ -1,10 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-size: 16px;
-  font-family: cursive, sans-serif;
+  font-family: 'Caveat', cursive;
   color: black;
 }
 
@@ -52,7 +48,7 @@ h2 {
 }
 
 #nav-list li:hover {
-  background: red;
+  background: grey;
 }
 
 #nav-list a {
@@ -64,7 +60,7 @@ h2 {
 }
 
 .navbar-header button.navbar-toggle:hover {
-  background: red;
+  background: whitesmoke;
 }
 
 .menu-tile {
@@ -90,23 +86,18 @@ h2 {
   #nav-list {
     display: none;
   }
-  
-
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #nav-list {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-list {
     display: none;
   }
-
 }
 
 
