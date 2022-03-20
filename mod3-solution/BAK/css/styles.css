@@ -32,15 +32,6 @@ body {
   margin-left: 15px;
 }
 
-h2 {
-  font-size: 1.75em;
-  font-weight: bold;
-  width: fit-content;
-  margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #nav-list li {
   text-align: center;
   font-weight: 500;
@@ -62,6 +53,8 @@ h2 {
 }
 
 .menu-tile {
+  height: 250px;
+  width: 100%;
   margin-bottom: 15px;
   text-align: center;
   font-weight: 600;
@@ -70,6 +63,7 @@ h2 {
 }
 
 .menu-tile p {
+  width: 100%;
   font-weight: 500;
   text-align: left;
   overflow: hidden;
@@ -79,7 +73,6 @@ h2 {
   #nav-list {
     display: none;
   }
-  
 
 }
 
