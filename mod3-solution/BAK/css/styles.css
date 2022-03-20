@@ -23,13 +23,23 @@ body {
   float: left;
 }
 
-.navbar-title h1 { /* Restaurant name */
+.navbar-title h1 {
   color: black;
   font-size: 1.7em;
   font-weight: bold;
   line-height: .75;
   margin-bottom: 18px;
   margin-left: 15px;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: bold;
+  width: fit-content;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #nav-list li {
@@ -53,19 +63,17 @@ body {
 }
 
 .menu-tile {
-  height: 250px;
-  width: 100%;
+  background: grey;
   margin-bottom: 15px;
   text-align: center;
   font-weight: 600;
-  border: 2px solid #3f0c1f;
   overflow: hidden;
 }
 
 .menu-tile p {
-  width: 100%;
   font-weight: 500;
   text-align: left;
+  margin: 10px;
   overflow: hidden;
 }
 
@@ -73,6 +81,8 @@ body {
   #nav-list {
     display: none;
   }
+  
+
 
 }
 
