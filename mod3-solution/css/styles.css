@@ -24,20 +24,17 @@ body {
 
 .navbar-title h1 {
   color: black;
-  width: 100%;
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 18px;
 }
 
 h2 {
+  text-align: center;
   font-size: 1.75em;
   font-weight: bold;
-  width: fit-content;
   margin-top: 30px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .navbar-toggle {
